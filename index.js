@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 client.once("ready", () => {
-  console.log(`✅ Bot is online as ${client.user.tag}`);
+  console.log(`Bot is online as ${client.user.tag}`);
 });
 
 client.on("messageCreate", async (message) => {
@@ -33,7 +33,7 @@ client.on("messageCreate", async (message) => {
 
     await message.reply({
       content: [
-        `📄 **JSON File Detected!**`,
+        `📄 **Macro Detected!**`,
         `**File:** \`${fileName}\``,
         `**Direct Link:**`,
         `\`\`\``,
