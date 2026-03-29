@@ -1,7 +1,7 @@
 {
   "name": "discord-json-bot",
   "version": "1.0.0",
-  "description": "Discord bot that replies with direct links to uploaded .json files",
+  "description": "diskowd",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
